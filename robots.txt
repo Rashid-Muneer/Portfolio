@@ -1,4 +1,4 @@
-# Rashid Muneer, Freelance Local SEO Specialist
+# Rashid Muneer, Local SEO Specialist
 User-agent: *
 Allow: /
 
