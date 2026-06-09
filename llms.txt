@@ -1,24 +1,24 @@
-# Rashid Muneer, Local SEO Specialist
+# Rashid Muneer, Freelance Local SEO Specialist
 
-> Rashid Muneer is a Local SEO specialist (2+ years) who helps service businesses
-> rank in the Google Map Pack (3-Pack), in organic search, and in AI answer engines
-> such as ChatGPT, Perplexity, Gemini and Google AI Overviews. Based in Multan,
-> Pakistan; works with clients across the US, UK and the Gulf.
+> Rashid Muneer is a freelance local SEO specialist (2+ years) who helps service
+> businesses rank in the Google Map Pack (3-Pack), in organic search, and in AI
+> answer engines such as ChatGPT, Perplexity, Gemini, and Google AI Overviews.
+> Based in Multan, Pakistan; works with clients across the US, UK, and the Gulf.
 
 ## Contact
 - Email: therashidmuneer010@gmail.com
 - LinkedIn: https://www.linkedin.com/in/rashidmuneer/
 
 ## Services
-- GMB Optimization: https://rashid-portfolio-web.vercel.app/gmb-optimization
-- Local SEO: https://rashid-portfolio-web.vercel.app/local-seo
-- SEO Audit: https://rashid-portfolio-web.vercel.app/seo-audit
-- On-Page SEO: https://rashid-portfolio-web.vercel.app/on-page-seo
-- Technical SEO: https://rashid-portfolio-web.vercel.app/technical-seo
-- Content SEO: https://rashid-portfolio-web.vercel.app/content-seo
-- Keyword Research: https://rashid-portfolio-web.vercel.app/keyword-research
-- Competitor Analysis: https://rashid-portfolio-web.vercel.app/competitor-analysis
-- AI Search and LLM Visibility (GEO/AEO): https://rashid-portfolio-web.vercel.app/ai-search-optimization
+- Google Business Profile Optimization: https://rashid-portfolio-web.vercel.app/gmb-optimization
+- Local SEO Services: https://rashid-portfolio-web.vercel.app/local-seo
+- SEO Audit Services: https://rashid-portfolio-web.vercel.app/seo-audit
+- On-Page SEO Services: https://rashid-portfolio-web.vercel.app/on-page-seo
+- Technical SEO Services: https://rashid-portfolio-web.vercel.app/technical-seo
+- SEO Content Writing: https://rashid-portfolio-web.vercel.app/content-seo
+- Keyword Research Services: https://rashid-portfolio-web.vercel.app/keyword-research
+- SEO Competitor Analysis: https://rashid-portfolio-web.vercel.app/competitor-analysis
+- AI Search Optimization (GEO/AEO): https://rashid-portfolio-web.vercel.app/ai-search-optimization
 
 ## Key pages
 - Home: https://rashid-portfolio-web.vercel.app/
