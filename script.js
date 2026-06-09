@@ -56,7 +56,7 @@
       sendBtn.disabled = true;
       sendBtn.textContent = "Sending...";
 
-      fetch("https://formsubmit.co/ajax/therashidmuneer010@gmail.com", {
+      fetch("https://formsubmit.co/ajax/5066f2c3956c21d9d172cf956a332966", {
         method: "POST",
         headers: { "Content-Type": "application/json", "Accept": "application/json" },
         body: JSON.stringify({
