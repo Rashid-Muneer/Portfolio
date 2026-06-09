@@ -41,21 +41,56 @@
     });
   });
 
-  /* ---- Contact form -> mailto (no backend) ---- */
+  /* ---- Contact form -> FormSubmit.co (real submission, no backend needed) ---- */
   var sendBtn = document.getElementById("sendBtn");
   if (sendBtn) {
     sendBtn.addEventListener("click", function () {
       var v = function (id) { var el = document.getElementById(id); return el ? el.value.trim() : ""; };
       var name = v("f-name"), email = v("f-email"), biz = v("f-biz"), msg = v("f-msg");
-      var body =
-        "Name: " + name + "\n" +
-        "Email: " + email + "\n" +
-        "Business & city: " + biz + "\n\n" +
-        msg;
-      var subject = "Local SEO enquiry: " + (biz || name || "new project");
-      window.location.href =
-        "mailto:therashidmuneer010@gmail.com?subject=" +
-        encodeURIComponent(subject) + "&body=" + encodeURIComponent(body);
+
+      if (!name || !email) {
+        alert("Please fill in your name and email.");
+        return;
+      }
+
+      sendBtn.disabled = true;
+      sendBtn.textContent = "Sending...";
+
+      fetch("https://formsubmit.co/ajax/therashidmuneer010@gmail.com", {
+        method: "POST",
+        headers: { "Content-Type": "application/json", "Accept": "application/json" },
+        body: JSON.stringify({
+          name: name,
+          email: email,
+          "Business & city": biz,
+          message: msg,
+          _subject: "Local SEO enquiry: " + (biz || name || "new project"),
+          _template: "table"
+        })
+      })
+      .then(function (res) { return res.json(); })
+      .then(function (data) {
+        if (data.success) {
+          sendBtn.textContent = "Sent!";
+          sendBtn.style.background = "#16a34a";
+          document.getElementById("f-name").value = "";
+          document.getElementById("f-email").value = "";
+          document.getElementById("f-biz").value = "";
+          document.getElementById("f-msg").value = "";
+          setTimeout(function () {
+            sendBtn.textContent = "Send message \u2192";
+            sendBtn.style.background = "";
+            sendBtn.disabled = false;
+          }, 3000);
+        } else {
+          throw new Error("Submission failed");
+        }
+      })
+      .catch(function () {
+        alert("Something went wrong. Please try again or email me directly at therashidmuneer010@gmail.com");
+        sendBtn.textContent = "Send message \u2192";
+        sendBtn.disabled = false;
+      });
     });
   }
 

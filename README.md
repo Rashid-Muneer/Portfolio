@@ -29,11 +29,11 @@ robots.txt                  Allows Google + AI crawlers (GPTBot, PerplexityBot�
 sitemap.xml                 All URLs for search engines
 llms.txt                    Guide for AI answer engines (helps them cite you)
 vercel.json                 Static config + asset caching
-assets/rashid.png           Your photo
-assets/favicon.svg          Favicon
+rashid.png           Your photo
+favicon.svg          Favicon
 ```
 
-Everything uses **relative links** (`./about.html`, `./style.css`, `./assets/rashid.png`), so it works on GitHub Pages, Vercel, Netlify, or opened locally.
+Everything uses **relative links** (`./about.html`, `./style.css`, `./rashid.png`), so it works on GitHub Pages, Vercel, Netlify, or opened locally.
 
 ---
 
@@ -95,4 +95,4 @@ git push -u origin main
 ## Editing later
 - Text/links: edit the `.html` files.
 - Colours/spacing: edit `style.css` (top of the file has the colour variables in `:root`).
-- Replace your photo: swap `assets/rashid.png` (keep the same filename, ideally a square 600×600+ image).
+- Replace your photo: swap `rashid.png` (keep the same filename, ideally a square 600×600+ image).

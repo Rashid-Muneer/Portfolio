@@ -18,4 +18,4 @@ Allow: /
 User-agent: Applebot-Extended
 Allow: /
 
-Sitemap: https://rashidmuneer.vercel.app/sitemap.xml
+Sitemap: https://rashid-portfolio-web.vercel.app/sitemap.xml
